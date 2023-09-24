@@ -1,0 +1,63 @@
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" style="opacity: 0.6;">
+            <div class="container-fluid">
+
+      
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                
+             <!-- DROPDOWN1 HAKKIMDA -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-house" id="menu">  MENU </i>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="A1.PSİKOTERAPİ.html">PSİKOTERAPİ NEDİR?</a></li>
+                      <li><a class="dropdown-item" href="A2.NedenOnline.Terapi.html">NEDEN ONLİNE TERAPİ</a></li>                 
+                      <li><a class="dropdown-item" href="A3.HastaYorumları.html">HASTA YORUMLARI</a></li>
+                      <li><a class="dropdown-item" href="A4.KayıtOl.html">KAYIT OL</a></li>
+                    </ul>
+                  </li>
+
+
+                  <!-- BİTİŞ -->
+                  <li class="nav-item ">
+                    <a class="nav-link" href="1.ANASAYFA.html">ANA SAYFA</a>
+                  </li>
+
+                  <!-- DROPDOWN2 HAKKIMDA -->
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      HAKKIMDA
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="H1.ÖZGEÇMİŞ.html">ÖZGEÇMİŞ</a></li>
+                      <li><a class="dropdown-item" href="H2.ÇalışmaAlanları.html">ÇALIŞMA ALANLARIM</a></li>
+         
+                    </ul>
+                  </li>
+                  <!-- BİTİŞ -->
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="3.BLOG.html">BLOG</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="4.OnlineTerapi.html">ONLİNE TERAPİ</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="5.SSS.html">SSS</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="6.İLETİSİM.html">İLETİŞİM</a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </nav>

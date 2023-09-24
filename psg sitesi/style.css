@@ -1,0 +1,198 @@
+/* navbarı fotografla beraber sabitledik */
+.navbar-menu{
+    position: fixed;
+    width: 100%;  
+}
+.navbar-nav .nav-link.dropdown-toggle {
+    position: relative;
+    z-index: 1;
+} 
+
+/* Dropdown menüsünün arka planının metnin üzerine gelmesini engellemek için z-index ayarı */
+ .dropdown-menu {
+    z-index: -9999;
+} 
+
+    .navbar::after {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: 2px;
+        width: 100%;
+        height: 0.4px; /* Çizginin kalınlığını ayarlayabilirsiniz */
+        background-color: rgb(37, 76, 182) ;/* Çizginin rengini ayarlayabilirsiniz */
+  }
+
+/* fotograflar */
+.bg-image{
+    width:100%;
+    height: 125vh;
+    background-image: url(img/WhatsApp\ Image\ 2023-09-19\ at\ 22.03.21.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    position: relative;
+}
+.bg-image1{
+    width: 100%;
+    height: 150vh;
+    background-image: url(img/Ekran\ Görüntüsü\ \(102\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.bg-image2{
+    width: 100%;
+    height: 150vh;
+    background-image: url(img/Ekran\ Görüntüsü\ \(103\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+ 
+}
+
+.bg-image3{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/Ekran\ Görüntüsü\ \(106\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.bg-image4{
+      width: 80%;
+      height: 90vh;
+      border-radius: 60%; 
+      margin-left: 10%;
+      margin-top: 55px;
+      padding-top: 90px;
+      background-image: url(img/WhatsApp\ Image\ 2023-09-19\ at\ 22.03.21.jpeg);
+      background-repeat: no-repeat;
+      background-size:cover;
+      background-position: center;
+      position: relative;
+}
+.bg-image5{
+    width: 100%;
+    height: 120vh;
+    background-image: url(img/Ekran\ Görüntüsü\ \(109\).png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    position: relative;
+}
+/* yazı tipleri */
+.hero-text {
+    /* Metin stil ayarları */
+    margin-top: 50%;
+    position: absolute; /* Mutlaka ekleyin, içeriği pozisyonlamak için gerekli */
+    top: 10%; /* Dikey konumu ayarlayın */
+    left: 10%; /* Yatay konumu ayarlayın */
+    transform: translate(-60%, -60%); /* Metni yatayda ve dikeyde merkezlemek için kullanılır */
+    color: blue; /* Metin rengi */
+    font-size: 24px; /* Metin boyutu */
+    text-align: left; /* Metin hizalaması */
+    /* background-color:blue rgb(red, green, blue); Metin arkaplan rengi ve saydamlık ayarı */
+    padding: 10px 20px; /* Metin içeriği için iç ve dış boşluk ayarları */
+   
+}
+.hero-text1 {
+    color:black;
+    padding: 10px 20px; /* Metin içeriği için iç ve dış boşluk ayarları */
+    position: relative; /* Mutlaka ekleyin, içeriği pozisyonlamak için gerekli */
+    top: 8%; /* Sayfanın altına yerleştirin */
+    left: 0; /* Sayfanın soluna yerleştirin */
+    right: 0; /* Sayfanın sağına yerleştirin */
+
+}
+.hero-text2 {
+    color:black;
+    position: absolute;
+     /* Mutlaka ekleyin, içeriği pozisyonlamak için gerekli */
+    top: 12%; /* Sayfanın altına yerleştirin */
+    left: 10px; /* Sayfanın soluna yerleştirin */
+    right: 0; /* Sayfanın sağına yerleştirin */
+    text-align: left; /* Metin hizalaması */
+}
+
+.NavbarRenk{
+    background-color: antiquewhite;
+}
+.navbar-nav a{
+    color:blue;
+}
+.navbar-nav a:hover{
+    color: aqua;
+}
+.bg-menu{
+    background-color: rgb(64, 70, 146) !important;
+
+}
+
+
+/* read more kısmı */
+
+
+/* Düğmeye tıklandığında gizli içeriği göster */
+.container1 {
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.box {
+    width: 32%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 0.2px solid #5161bb;
+    text-align: center;
+}
+
+img {
+   /* Maksimum yükseklik belirleyin */
+  width: 250px; /* Genişlik otomatik olarak ayarlanacak */
+  height: 250px; /* Yükseklik otomatik olarak ayarlanacak */
+}
+
+.hidden {
+    display: none;
+}
+
+.read-more-button {
+    background-color: rgb(86, 103, 156) !important;;
+    color: #ffffff;
+    border: none;
+    padding: 7px 10px;
+    cursor: pointer;
+
+}
+.font{
+    position: absolute; /* Pozisyonu mutlak yapar */
+    top: 90%; /* Sayfanın yüzde 50'sine yükseltir */
+    left: 63%; /* Sayfanın yüzde 50'sine sola kaydırır */
+    transform: translate(-50%, -50%); /* Simgenin kendisini çapraz konumlandırır */
+    font-size: 36px; /* Simgenin büyüklüğünü ayarlayın */
+    /* İstediğiniz diğer stil ayarlarını burada yapabilirsiniz */
+    
+  }
+
+
+  .iletişim{
+    position: absolute; /* Pozisyonu mutlak yapar */
+    top: 5%; /* Sayfanın yüzde 50'sine yükseltir */
+    left: 7%; /* Sayfanın yüzde 50'sine sola kaydırır */
+    /* transform: translate(-50%, -50%); Simgenin kendisini çapraz konumlandırır */
+  
+    /* İstediğiniz diğer stil ayarlarını burada yapabilirsiniz */
+    
+  }
+
+
+  
+  
